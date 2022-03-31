@@ -9,3 +9,11 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 python3 poc-CVE-2022-22963.py targets.txt
 ```
 By default whoami is executed on the target and a file vulnerable.txt is created with the URLs that are vulnerable.
+
+
+## CVE-2022-22965
+
+
+```
+ python3 poc-CVE-2022-22965.py  --file target.txt
+ ```
